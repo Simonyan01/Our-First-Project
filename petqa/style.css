@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: italic;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(../Проект/img/preset_desktop_52cfe4ef-0db0-4002-9e2d-ff74253f79ab.png);
+    background-repeat: no-repeat;
+
+
+    background-image: linear-gradient(to bottom, #d81f1f, #24a9dd, rgb(255, 115, 0));
+}
+
+
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 99;
+
+
+}
+
+.banner .RELQ {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin: 0;
+
+}
+
+.banner p {
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 12px;
+    background: transparent;
+    transition: color .2s linear;
+    animation: RELQ .9s infinite alternate;
+
+}
+
+.banner p:hover {
+    color: #dc1313;
+
+}
+
+@keyframes RELQ {
+    From {
+        color: rgb(255, 255, 255);
+        transform: scale(1, 1);
+    }
+
+    To {
+        color: #000000;
+        transform: scale(2, 2);
+    }
+}
+
+.banner .Regions:hover {
+    color: black;
+}
+
+.banner a {
+    text-decoration: none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    margin-bottom: 10px;
+}
+
+.image {
+    margin: 0;
+    width: 500px;
+    display: flex;
+    position: relative;
+    margin-left: 55%;
+    margin-top: 15%;
+    box-shadow: 0 0 20px black;
+    border-radius: 25px;
+
+    background-size: cover;
+}
+
+.Vach2 {
+    display: flex;
+    background: transparent;
+}
+
+
+
+
+.Region1 {
+    animation: Region1 .4s infinite alternate;
+    transition: color .2s linear;
+}
+
+.Region1:hover {
+    color: rgb(151, 59, 211);
+}
+
+@keyframes Region1 {
+    From {
+        color: aliceblue;
+    }
+
+    To {
+        color: rgb(162, 23, 222);
+    }
+}
+
+
+.Region2 {
+    animation: Region2 .4s infinite alternate;
+    transition: color .2s linear;
+    letter-spacing: 1px;
+}
+
+.Region2:hover {
+    color: rgb(57, 228, 219);
+}
+
+@keyframes Region2 {
+    From {
+        color: aliceblue;
+    }
+
+    To {
+        color: rgb(23, 227, 210);
+    }
+}
+
+.Region3 {
+    animation: Region3 .4s infinite alternate;
+    transition: color .2s linear;
+}
+
+.Region3:hover {
+    color: rgb(228, 120, 57);
+}
+
+@keyframes Region3 {
+    From {
+        color: aliceblue;
+    }
+
+    To {
+        color: rgb(219, 125, 17);
+    }
+}
+
+.Region4 {
+    animation: Region4 .4s infinite alternate;
+    transition: color .2s linear;
+}
+
+.Region4:hover {
+    color: rgb(114, 22, 22);
+}
+
+@keyframes Region4 {
+    From {
+        color: aliceblue;
+    }
+
+    To {
+        color: rgb(114, 22, 22);
+    }
+}
+
+.Region5 {
+    animation: Region5 .4s infinite alternate;
+    transition: color .3s linear;
+}
+
+.Region5:hover {
+    color: rgb(223, 46, 22);
+}
+
+@keyframes Region5 {
+    From {
+        color: aliceblue;
+    }
+
+    To {
+        transition: color .3s linear;
+        color: rgb(223, 46, 22);
+    }
+}
+
+.Vach {
+    color: rgb(0, 0, 0);
+    transition: color .2s linear;
+    text-shadow: 0 0 10px rgb(18, 13, 13);
+
+}
+
+.Vach2:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.Rozi {
+    color: rgb(0, 0, 0);
+    transition: color .2s linear;
+    text-shadow: 0 0 10px rgb(18, 13, 13);
+
+}
+
+.Rozi2:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.Nelly {
+    color: rgb(0, 0, 0);
+    transition: color .2s linear;
+    text-shadow: 0 0 10px rgb(18, 13, 13);
+
+}
+
+.Nelly2:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.Lyov {
+    color: rgb(0, 0, 0);
+    transition: color .2s linear;
+    text-shadow: 0 0 10px rgb(18, 13, 13);
+
+}
+
+.Lyov2:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.Hasmik {
+    color: rgb(0, 0, 0);
+    transition: color .2s linear;
+    text-shadow: 0 0 10px rgb(18, 13, 13);
+
+}
+
+.Hasmik2:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+
+}
