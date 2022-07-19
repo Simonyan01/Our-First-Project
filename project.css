@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qartez {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-image: linear-gradient(144deg, #ff0000 4%, #391fe1, #ff8c00 90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+.location a {
+    text-decoration: none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    z-index: 99;
+    transition: color .2s linear;
+
+}
+
+.location a:hover {
+    color: rgb(0, 12, 9);
+}
+
+
+
+.location .fa-location-dot {
+    color: aliceblue;
+    transition: color transform .4s linear;
+}
+
+.location .fa-location-dot:hover {
+    color: rgb(202, 185, 53);
+    transform: scale(1.2);
+}
+
+.Region1 {
+    letter-spacing: 1px;
+
+}
+
+
+.Region2 {
+
+    letter-spacing: 1px;
+}
+
+
+.Region3 {
+    letter-spacing: 1px;
+
+}
+
+
+.Region4 {
+    letter-spacing: 1px;
+
+}
+
+.Region5 {
+    letter-spacing: 1px;
+
+}
