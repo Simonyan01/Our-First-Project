@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- add style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Card Profile</title>
+</head>
+<body>
+	
+    <div class="card" data-state="#about">
+        <div class="card-header">
+            <div class="card-cover" style="background-image: url('images/image_background.jpg')"></div>
+            <img class="card-avatar" src="./images/WhatsApp Image 2022-07-19 at 17.45.55.jpeg"  alt="avatar" />
+            <h1 class="card-fullname">Վաչ Մալխասյան</h1>
+            <h2 class="card-jobtitle">Web Developer</h2>
+        </div>
+        <div class="card-main">
+            <div class="card-section is-active" id="about">
+                <div class="card-content">
+                    <div class="card-subtitle">ԻՄ ՄԱՍԻՆ </div>
+                    <p class="card-desc" style="text-align:center">Սովորում եմ <span>"Relq"</span> տեխնոլոգիական դպրոցում<br> Ապագա <span>"Full-Stack Web Developer"</span></p>
+                </div>
+                <div class="card-social">
+                    <a href=""  target="_blank">
+						<i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://github.com/VachMalkhasyan" target="_blank">
+						<i class="fa fa-github"></i>
+                    </a>
+                     <a href="#">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vachik-malxasyan-01aa28218/" target="_blank">
+						<i class="fa fa-linkedin-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-section" id="experience">
+                <div class="card-content">
+                    <div class="card-subtitle">ՈՒՍՈՒՄ</div>
+                    <div class="card-timeline">
+                        <div class="card-item" data-year="">
+                            <div class="card-item-title">Սևանի հ․3 հիմնական դպրոց
+                        
+                            </div>
+                            <div class="card-item-desc"></div>
+                        </div>
+                        <div class="card-item" data-year="">
+                            <div class="card-item-title"> Երևանի պետական ֆինասնսատնտեսագիտական քոլեջ
+                            
+                            </div>
+                            <div class="card-item-desc"></div>
+                        </div>
+                        <div class="card-item" data-year="">
+                            <div class="card-item-title">ՀՊՏՀ
+                            </div>
+                            <div class="card-item-desc"></div>
+                        </div>
+                        <div class="card-item" data-year="">
+                            <div class="card-item-title"></div>
+                             մասնակցում եմ <b>"Relq"</b> տեխնոլոգիական դպրոցում կայացվող Full-Stack Web Development 6 ամսյա դասընթացներին 
+                            </div>
+                            <div class="card-item-desc"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-section" id="contact">
+                <div class="card-content">
+                    <div class="card-subtitle">ԿԱՊ</div>
+                    <div class="card-contact-wrapper">
+                        <div class="card-contact">
+                            <i class="fa fa-map-marker"></i>
+								Հայաստանի Հանրապետություն 
+                                <br>Գեղարքունիքի մարզ
+                                <br>քաղաք Սևան
+                        </div>
+                        <div class="card-contact">
+                            <i class="fa fa-mobile"></i>(+374)93106363
+                        </div>
+                        <div class="card-contact">
+							<i class="fa fa-envelope-o"></i>
+                    		vachmalkhasyan@gmail.com
+                        </div>
+                        <button class="contact-me">Աշխատենք միասին</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-buttons">
+                <button data-section="#about" class="is-active">Իմ մասին</button>
+                <button data-section="#experience">Ուսում</button>
+                <button data-section="#contact">Կապ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- add style js -->
+    <script type="text/javascript" src="js/internal.js"></script>
+
+</body>
+</html>
