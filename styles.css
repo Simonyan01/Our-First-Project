@@ -30,12 +30,13 @@ body .aboutUs {
   font-size: 30px;
   animation: backInDown 3s alternate;
   cursor: default;
-  text-shadow: 0 0 8px #FFFFFF;
+  text-shadow: 0 0 10px #ffffff;
+
 }
 
 .mecxelq {
-  max-width: 290px;
-  max-height: 290px;
+  width: 300px;
+  height: 300px;
 }
 
 
@@ -68,7 +69,7 @@ a {
   line-height: 1em;
   max-width: 100%;
   min-width: 140px;
-  padding: 3px;
+  padding: 5 10px;
   cursor: pointer;
 }
 
@@ -90,14 +91,24 @@ a {
   background: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   .button-64 {
-    font-size: 24px;
+    font-size: 20px;
     min-width: 196px;
   }
 }
 
+
+
 .button-64 {
   margin-left: 80%;
-  margin-top: 24%;
+  margin-top: 22%;
+}
+
+
+@media (min-width: 500px) {
+  .relq {
+    font-size: 24px;
+    min-width: 150px;
+  }
 }
