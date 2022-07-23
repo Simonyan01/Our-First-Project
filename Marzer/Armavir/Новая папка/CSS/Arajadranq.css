@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.amazon {
+    padding: 30px;
+    text-decoration: none;
+    transition: transform .5s;
+
+}
+
+.amazon:hover {
+    transform: scale(1.2);
+}
+
+.hero {
+    justify-content: center;
+    display: flex;
+    padding-top: 5%;
+
+}
+
+
+
+#container {
+    width: 100%;
+    background: url(http://wearebrown.weebly.com/uploads/1/2/4/9/124953086/596960038.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text {
+    text-shadow: 0 0 14px;
+    cursor: default;
+    margin: 21%;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    margin: 15% 0 0 0;
+}
+
+
+
+.amazon1 {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-right: 50px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    background: rgb(40, 203, 149);
+    font-size: 25px;
+    transition: transform .7s;
+    border-radius: 10px;
+    text-shadow: 0 0 15px;
+    box-shadow: 0 0 10px rgb(35, 186, 136);
+
+}
+
+.amazon1:hover {
+    transform: scale(1.3);
+}
+
+.mayr_ator {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY (-50%);
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+        blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 17em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        color: rgb(45, 213, 143);
+        border-right-color: rgb(115, 113, 113);
+    }
+
+    to {
+        color: rgb(200, 255, 0);
+        border-right-color: transparent;
+    }
+}
+
+
+
+.school {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: color .2s linear;
+    text-shadow: 0 0 4px rgb(100, 85, 85);
+}
+
+.school:hover {
+    color: rgb(231, 14, 75);
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.button {
+    font-size: xx-large;
+    text-decoration: none;
+    position: absolute;
+    left: 82%;
+    bottom: -130%;
+    background-color: rgb(228, 228, 226);
+    border-radius: 15px;
+    border: 1px ridge rgb(15, 15, 15);
+    box-shadow: 0 0 10px black;
+    padding: 1px 20px;
+    color: rgba(33, 24, 24, 0.601);
+    transition: color .3s linear;
+    transition: transform .4s;
+    text-shadow: 0 0 15px;
+
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(112, 215, 78);
+    transform: scale(1.2);
+}
+
+.text1 {
+    text-shadow: 0 0 14px;
+    cursor: default;
+    position: absolute;
+    top: 240%;
+    margin: 15%;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image2 {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    left: -17%;
+    top: 880px;
+    transition: transform 1s;
+
+}
+
+.image2:hover {
+    transform: scale(1.1);
+}
+
+.image {
+    position: absolute;
+    left: 12%;
+    top: 1550px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    transition: transform 1s;
+
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.image3 {
+    position: absolute;
+    top: 2300px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    transition: transform 1s;
+    width: 600px;
+    height: auto;
+}
+
+.image3:hover {
+    transform: scale(1.1);
+}
+
+.image4 {
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    transition: transform 1s;
+    position: absolute;
+    left: 12%;
+    top: 3250px;
+    width: 500px;
+    height: auto;
+}
+
+.image4:hover {
+    transform: scale(1.1);
+}
+
+.photo {
+    position: absolute;
+    top: 335%;
+    left: 75px;
+    transition: transform .7s;
+
+}
+
+.photo:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+
+}
+
+span {
+    color: rgb(84, 80, 74);
+    transition: color.2s linear;
+}
+
+span:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+#gayane {
+    font-size: xx-large;
+    text-align: center;
+    width: 16em;
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY (-50%);
+    animation: typewrite 4s steps(40) 1s 1 normal both,
+        TextCursor 500ms steps(40) infinite normal;
+
+}
+
+@keyframes typewrite {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 17em;
+    }
+}
+
+@keyframes TextCursor {
+    from {
+        color: rgb(213, 213, 33);
+        border-right-color: rgb(115, 113, 113);
+    }
+
+    to {
+        color: rgb(255, 85, 0);
+        border-right-color: transparent;
+    }
+}
+
+.button2 {
+    font-size: xx-large;
+    text-decoration: none;
+    position: absolute;
+    left: 80%;
+    bottom: -740%;
+    background-color: rgb(228, 228, 226);
+    border-radius: 15px;
+    border: 1px ridge rgb(15, 15, 15);
+    box-shadow: 0 0 10px black;
+    padding: 1px 20px;
+    color: rgba(10, 5, 5, 0.601);
+    transition: color .3s linear;
+    transition: transform .4s;
+    text-shadow: 0 0 15px;
+}
+
+.button2:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 85, 0);
+    transform: scale(1.2);
+}
+
+.iframe {
+    box-shadow: -30px 30px 20px rgb(40, 38, 37);
+    border: 2px thin black;
+    border-radius: 15px;
+    position: absolute;
+    top: 295%;
+    left: 550px;
+    transition: transform 1s;
+}
+
+.iframe:hover {
+    transform: scale(1.1);
+}
