@@ -21,7 +21,7 @@
 .hero {
     justify-content: center;
     display: flex;
-    padding-top: 5%;
+    padding-top: 8%;
 
 }
 
@@ -122,7 +122,14 @@ img {
 }
 
 h3 {
+    position: relative;
+    top: 20px;
     cursor: pointer;
+}
+
+li {
+    position: relative;
+    top: 20px;
 }
 
 .button {
@@ -130,7 +137,7 @@ h3 {
     text-decoration: none;
     position: absolute;
     left: 82%;
-    bottom: -130%;
+    top: 8%;
     background-color: rgb(228, 228, 226);
     border-radius: 15px;
     border: 1px ridge rgb(15, 15, 15);
@@ -163,7 +170,7 @@ h3 {
     text-shadow: 0 0 14px;
     cursor: default;
     position: absolute;
-    top: 790%;
+    top: 740%;
     margin: 15%;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -253,7 +260,7 @@ h3 {
     box-shadow: 0 0 15px rgb(0, 0, 0);
     transition: transform 1s;
     position: absolute;
-    right: 38%;
+    right: 45%;
     top: 3800px;
     width: 800px;
     height: auto;
@@ -266,7 +273,7 @@ h3 {
 
 .about_hripsime {
     position: relative;
-    left: 650px;
+    left: 700px;
     top: 4000px;
     width: 550px;
     text-align: justify;
@@ -325,7 +332,7 @@ h3 {
 
 .photo {
     position: absolute;
-    top: 335%;
+    top: 375%;
     left: 75px;
     transition: transform .7s;
 
@@ -339,7 +346,7 @@ h3 {
 
 .photo1 {
     position: absolute;
-    bottom: -80%;
+    bottom: -50%;
     right: 65%;
     transition: transform .7s;
 
@@ -352,7 +359,7 @@ h3 {
 
 .photo2 {
     position: absolute;
-    bottom: -80%;
+    bottom: -50%;
     left: 73%;
     transition: transform .7s;
 
@@ -374,6 +381,10 @@ span:hover {
     color: rgb(0, 0, 0);
 }
 
+#mayr_ator {
+    position: relative;
+    top: 1%;
+}
 
 #gayane {
     font-size: xx-large;
@@ -396,7 +407,7 @@ span:hover {
     width: 16em;
     position: relative;
     margin: 0 auto;
-    top: 400px;
+    top: 350px;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY (-50%);
@@ -454,7 +465,7 @@ span:hover {
     text-decoration: none;
     position: absolute;
     left: 80%;
-    bottom: -740%;
+    bottom: -670%;
     background-color: rgb(228, 228, 226);
     border-radius: 15px;
     border: 1px ridge rgb(15, 15, 15);
@@ -477,8 +488,8 @@ span:hover {
     border: 2px thin black;
     border-radius: 15px;
     position: absolute;
-    top: 295%;
-    left: 550px;
+    top: 325%;
+    left: 630px;
     transition: transform 1s;
 }
 
@@ -491,7 +502,7 @@ span:hover {
     text-decoration: none;
     position: absolute;
     left: 80%;
-    bottom: -1300%;
+    bottom: -1200%;
     background-color: rgb(228, 228, 226);
     border-radius: 15px;
     border: 1px ridge rgb(15, 15, 15);
